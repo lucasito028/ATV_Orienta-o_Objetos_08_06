@@ -1,15 +1,15 @@
 <?php
-
-require "./Shape.php";
-
+//Filha da Classe Shape
 class Circulo extends Shape{
 
-    public function __construct__(){
+    public $raio;
 
+    public function __construct($raio){
+        $this->raio = $raio;
     }
 
     public function calcularArea(){
-        return $this->area = 0;
+        return $this->area = ($this->raio * $this->raio) * 3.14;
     }
 
 }

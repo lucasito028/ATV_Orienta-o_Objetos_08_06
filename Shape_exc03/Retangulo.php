@@ -1,15 +1,18 @@
 <?php
-
-require "./Shape.php";
-
+//Filha da Classe Shape
 class Retangulo extends Shape{
 
-    public function __construct__(){
+    public $altura;
+    public $comprimento;
+
+    public function __construct($altura , $comprimento){
+        $this->altura = $altura;
+        $this->comprimento = $comprimento;
 
     }
 
     public function calcularArea(){
-        return $this->area = 0;
+        return $this->area = $this->comprimento * $this->altura;
     }
 
 }

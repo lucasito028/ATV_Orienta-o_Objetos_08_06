@@ -1,3 +1,10 @@
+<?php
+//Parte dos Requires
+        require "Animal.php";
+        require "Vaca.php";
+        require "Gato.php";
+        require "Cachorro.php";
+        ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,21 +15,23 @@
 </head>
 <body>
     <?php
-    
-        require "./Vaca.php";
-        require "./Gato.php";
-        require "./Cachorro.php";
         
+        /*Dica Agora copia uma parte por de cada vez para testae:
+        Exemplo:
+        $vaca = new Vaca();
+        $vaca -> emitirSom();
+        */
 
+        /*
         $vaca = new Vaca();
         $vaca -> emitirSom();
 
+        $cachorro = new Cachorro();
+        $cachorro -> emitirSom();
+
         $gato = new Gato();
         $gato -> emitirSom();
-
-        $cao = new Cachorro();
-        $cao -> emitirSom(); 
-
+        */
         
 
     ?>

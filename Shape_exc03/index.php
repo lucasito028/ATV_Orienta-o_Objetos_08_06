@@ -1,3 +1,9 @@
+<?php
+//Todas as requisições
+    require "./Shape.php";
+    require "./Retangulo.php";
+    require "./Circulo.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +14,25 @@
 </head>
 <body>
     <?php
-    
+
+    /*Dica nesse Recomendo excecutar um ou outro, não os dois mesmo tempo*/
+
+    /* O Retangulo
+    $r1 = new Retangulo(10,15);
+
+    $resultado = $r1->calcularArea();
+    */
+
+    /* O Circulo
+    $c1 = new Circulo(10);
+
+    $resultado = $c1->calcularArea();
+    */
+
+    /*Comando Pronto para resposta
+    echo "Resultado: $resultado"
+    */
+
     ?>
 </body>
 </html>
